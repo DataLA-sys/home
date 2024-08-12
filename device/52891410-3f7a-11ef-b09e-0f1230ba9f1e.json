@@ -1,0 +1,94 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : false,
+      "overwriteActivityTime" : false,
+      "description" : ""
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "RTSP",
+        "enable" : true,
+        "frameFolder" : "/var/tmp/",
+        "frameIntervalMs" : 100,
+        "height" : 600,
+        "saveVideo" : true,
+        "transport" : "udp",
+        "transportName" : null,
+        "url" : "rtsp://localhost:8554/aaa",
+        "videoDurationMin" : 5,
+        "videoFileFormat" : "'${deviceId}-'YYYY-MM-dd-HH-mm-ss.SSS'.mp4'",
+        "videoFolder" : "/home/pavel-simanikhin/projects/tmp/videodata/video1/",
+        "webPooling" : true,
+        "webPoolingInterval" : 150,
+        "width" : 800
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "5276c490-3f7a-11ef-b09e-0f1230ba9f1e"
+    },
+    "entityType" : "DEVICE",
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "52891410-3f7a-11ef-b09e-0f1230ba9f1e"
+    },
+    "label" : "aaaaaa",
+    "name" : "video1",
+    "ownerId" : null,
+    "softwareId" : null,
+    "type" : "videoProfile1"
+  },
+  "credentials" : {
+    "credentialsId" : "BPgcXJWtq2sY1AmKK7AV",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1723467408590,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1723467408804,
+      "longValue" : 1723467408587,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1723294629345,
+      "longValue" : 1723294629091,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1723291572850,
+      "longValue" : 1723291572850,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}
