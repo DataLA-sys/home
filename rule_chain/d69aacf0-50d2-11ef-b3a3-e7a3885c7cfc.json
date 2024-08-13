@@ -16,7 +16,7 @@
       "entityType" : "RULE_CHAIN",
       "id" : "d69aacf0-50d2-11ef-b3a3-e7a3885c7cfc"
     },
-    "name" : "Video Root Rule Chain",
+    "name" : "Video Root Rule Chain...",
     "root" : false,
     "type" : "CORE"
   },
@@ -57,10 +57,6 @@
       "fromIndex" : 7,
       "toIndex" : 8,
       "type" : "Success"
-    }, {
-      "fromIndex" : 7,
-      "toIndex" : 9,
-      "type" : "Failure"
     } ],
     "firstNodeIndex" : 6,
     "nodes" : [ {
@@ -248,32 +244,9 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.action.TbLogNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "",
-        "layoutX" : 808,
-        "layoutY" : 34
-      },
-      "configuration" : {
-        "scriptLang" : "TBEL",
-        "jsScript" : "return '\\nIncoming message:\\n' + JSON.stringify(msg) + '\\nIncoming metadata:\\n' + JSON.stringify(metadata);",
-        "tbelScript" : "return '\\nIncoming message:\\n' + JSON.stringify(msg) + '\\nIncoming metadata:\\n' + JSON.stringify(metadata);"
-      },
-      "createdTime" : 0,
-      "debugMode" : true,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "50e35130-5711-11ef-b362-61b25db9ebb8"
-      },
-      "name" : "log faile extract video frame",
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.action.TbLogNode"
     } ],
     "ruleChainConnections" : null
   },
-  "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ ]
   }
