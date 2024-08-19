@@ -2,7 +2,7 @@
   "entityType" : "ENTITY_GROUP",
   "entity" : {
     "additionalInfo" : {
-      "description" : "abcdef"
+      "description" : "abcdefc"
     },
     "configuration" : {
       "columns" : [ {
