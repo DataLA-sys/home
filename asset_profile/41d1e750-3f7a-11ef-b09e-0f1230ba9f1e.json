@@ -8,7 +8,10 @@
     "defaultRuleChainId" : null,
     "description" : "Default asset profile",
     "entityType" : "ASSET_PROFILE",
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "41d1e750-3f7a-11ef-b09e-0f1230ba9f1e"
+    },
     "id" : {
       "entityType" : "ASSET_PROFILE",
       "id" : "41d1e750-3f7a-11ef-b09e-0f1230ba9f1e"

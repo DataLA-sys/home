@@ -8,7 +8,10 @@
     "defaultRuleChainId" : null,
     "description" : "Default device profile",
     "entityType" : "DEVICE_PROFILE",
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "b6624160-3f79-11ef-b3b9-cf02e18c4429"
+    },
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE_PROFILE",
