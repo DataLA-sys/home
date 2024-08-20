@@ -1,9 +1,7 @@
 {
   "entityType" : "ENTITY_GROUP",
   "entity" : {
-    "additionalInfo" : {
-      "description" : "aaa"
-    },
+    "additionalInfo" : null,
     "configuration" : {
       "columns" : [ {
         "type" : "ENTITY_FIELD",
@@ -11,15 +9,19 @@
         "sortOrder" : "DESC"
       }, {
         "type" : "ENTITY_FIELD",
-        "key" : "name",
+        "key" : "title",
         "sortOrder" : "NONE"
       }, {
         "type" : "ENTITY_FIELD",
-        "key" : "device_profile",
+        "key" : "email",
         "sortOrder" : "NONE"
       }, {
         "type" : "ENTITY_FIELD",
-        "key" : "label",
+        "key" : "country",
+        "sortOrder" : "NONE"
+      }, {
+        "type" : "ENTITY_FIELD",
+        "key" : "city",
         "sortOrder" : "NONE"
       } ],
       "settings" : { },
@@ -27,17 +29,17 @@
     },
     "edgeGroupAll" : false,
     "externalId" : null,
-    "groupAll" : false,
+    "groupAll" : true,
     "id" : {
       "entityType" : "ENTITY_GROUP",
-      "id" : "30680c60-3f7a-11ef-b09e-0f1230ba9f1e"
+      "id" : "b66c2c70-3f79-11ef-b3b9-cf02e18c4429"
     },
-    "name" : "VideoCameras",
+    "name" : "All",
     "ownerId" : {
       "entityType" : "TENANT",
       "id" : "b65b6390-3f79-11ef-b3b9-cf02e18c4429"
     },
-    "type" : "DEVICE"
+    "type" : "CUSTOMER"
   },
   "relations" : [ ],
   "attributes" : {
